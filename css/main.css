@@ -258,7 +258,6 @@ footer .copyright {
   font-size: 2.25em;
   font-weight: 500;
   line-height: 1.2;
-  color: #e2e3ed;
 }
 
 /* Aside */
@@ -297,22 +296,6 @@ input[type=button] {
   text-transform: uppercase;
 }
 
-.form-description h3 {
-  font-size: 1.125em;
-  font-weight: normal;
-}
-
-.form-description p{
-  font-size: 0.875em;
-  font-weight: normal;
-  font-family: 'OpenSans', sans-serif;
-}
-
-.form h3{
-  font-size: 1.125em;
-  font-family: 'Poppins', sans-serif;
-  font-weight: normal;
-}
 
 /* Features */
 .features {
@@ -323,18 +306,11 @@ input[type=button] {
 
 .features h2 {
   margin-bottom: 60px;
-  font-size: 1.875em;
-  font-family: 'Poppins', sans-serif;
-  font-weight: normal;
 }
 
 .features article {
   width: 63%;
   margin: 30px 0;
-  text-align: center;
-  font-family: 'OpenSans', sans-serif;
-  font-weight: lighter;
-  font-size: 0.875em;
 }
 
 .features .feature-items {
@@ -345,6 +321,7 @@ input[type=button] {
 }
 
 .features p {
+  text-align: center;
   margin: 0;
 }
 
@@ -358,25 +335,14 @@ input[type=button] {
 
 .reviews h2 {
   margin-bottom: 40px;
-  font-size: 1.875em;
-  font-weight: normal;
-  font-family: 'Poppins', sans-serif;
   line-height: 1;
 }
 
 .reviews h3 {
   width: 55%;
   margin: 20px 0;
-  font-size: 1.125em;
-  font-weight: normal;
-  font-family: 'Poppins', sans-serif;
 }
 
-.reviews p {
-  font-size: .875em;
-  font-family: 'OpenSans', sans-serif;
-  font-weight: normal;
-}
 
 /*--------------- Mobile Styles - About ---------------*/
 .mission {
@@ -385,18 +351,6 @@ input[type=button] {
   align-items: center;
   flex-flow: row wrap;
   background-color: #527158;
-}
-
-.mission h2 {
-  font-size: 1.875em;
-  font-family: 'Poppins', sans-serif;
-  font-weight: normal;
-}
-
-.mission-content {
-  font-size: 0.875em;
-  font-family: 'OpenSans', sans-serif;
-  font-weight: lighter;
 }
 
 .map {
@@ -411,23 +365,8 @@ input[type=button] {
   flex-flow: row wrap;
 }
 
-.contact-section h2 {
-  font-size: 1.875em;
-  font-family: 'Poppins', sans-serif;
-  font-weight: normal;
-}
-
-.contact-content h4{
-  font-size: 1.125em;
-  font-family: 'Poppins', sans-serif;
-  font-weight: normal;
-}
-
 .contact-content p {
   margin: 0;
-  font-size: 0.875em;
-  font-family: 'OpenSans', sans-serif;
-  font-weight: lighter;
 }
 /*--------------- Mobile Styles - FAQ ---------------*/
 .faq {
@@ -448,9 +387,6 @@ input[type=button] {
 
 .faq h2 {
   margin-bottom: 40px;
-  font-size: 1.875em;
-  font-family: 'Poppins', sans-serif;
-  font-weight: normal;
   line-height: 1;
 }
 
@@ -459,19 +395,8 @@ input[type=button] {
 }
 
 .faq-content h4 {
-  font-size: 1.125em;
-  font-family: 'Poppins', sans-serif;
-  font-weight: normal;
   line-height: 1.333;
 }
-
-.faq-content p {
-  font-size: 0.875em;
-  font-family: 'OpenSans', sans-serif;
-  font-weight: lighter;
-}
-
-
 
 /* ==========================================================================
    Helper classes
