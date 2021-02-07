@@ -246,6 +246,7 @@ footer .social-icons p {
   border-radius: 50%;
   height: 40px;
   width: 40px;
+  margin: 0 30px;
 }
 
 footer .social-icons p i {
@@ -254,9 +255,6 @@ footer .social-icons p i {
 
 footer .copyright {
   margin: 20px 0;
-  font-size: 0.875em;
-  font-family: 'OpenSans', sans-serif;
-  font-weight: lighter;
 }
 
 /*--------------- Mobile Styles - Homepage ---------------*/
@@ -348,6 +346,7 @@ input[type=button] {
 .features i {
   font-size: 3.75em;
   margin-bottom: 40px;
+  margin-left: 100px;
 }
 
 .features p {
