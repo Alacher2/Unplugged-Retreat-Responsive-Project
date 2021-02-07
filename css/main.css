@@ -147,7 +147,6 @@ address {
   margin: 50px 0;
 }
 
-
 /*--------------- Base Header - Footer Styles ---------------*/
 header,
 footer {
@@ -243,6 +242,14 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #527158;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+footer .social-icons p i {
+  font-size: 1.3125em;
 }
 
 footer .copyright {
@@ -341,7 +348,6 @@ input[type=button] {
 .features i {
   font-size: 3.75em;
   margin-bottom: 40px;
-  text-align: center;
 }
 
 .features p {
