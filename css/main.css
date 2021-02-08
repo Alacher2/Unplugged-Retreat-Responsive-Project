@@ -323,7 +323,6 @@ input[type=button] {
   flex-flow: row wrap;
   background-image: url('../img/rawpixel-800820-unsplash1.jpg');
   background-size: cover;
-  background-repeat: no-repeat;
   background-position: center;
 }
 
@@ -346,7 +345,6 @@ input[type=button] {
 .features i {
   font-size: 3.75em;
   margin-bottom: 40px;
-  margin-left: 100px;
 }
 
 .features p {
@@ -527,7 +525,7 @@ input[type=button] {
    Modify as content requires.
    ========================================================================== */
 
-@media only sreen and (min-width: 768px){
+@media screen and (min-width: 768px){
     /*Tablet styles here*/
     .content-wrapper{
       width: 640px;
@@ -719,7 +717,7 @@ h3 {
       }
 }
 
-@@media only screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
     /*Desktop styles here*/
 
     .content-wrapper {
